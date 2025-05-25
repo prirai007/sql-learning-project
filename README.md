@@ -41,7 +41,7 @@
 
 ## 📊 The Analysis
 
-### === 1. Top-Paying Data Analyst Jobs
+### 1. Top-Paying Data Analyst Jobs
 
 This query filters remote jobs with available salary data, sorting by the highest salaries.
 
@@ -76,7 +76,7 @@ LIMIT 10;
 
 ---
 
-### === 2. Skills for Top-Paying Jobs
+### 2. Skills for Top-Paying Jobs
 
 ```sql
 WITH top_paying_jobs AS (
@@ -118,7 +118,7 @@ ORDER BY
 
 ---
 
-### === 3. In-Demand Skills for Data Analysts
+### 3. In-Demand Skills for Data Analysts
 
 ```sql
 SELECT
@@ -147,7 +147,7 @@ LIMIT 5;
 
 ---
 
-### === 4. Skills Based on Salary
+### 4. Skills Based on Salary
 
 ```sql
 SELECT
@@ -182,7 +182,7 @@ LIMIT 25;
 
 ---
 
-### === 5. Most Optimal Skills to Learn
+### 5. Most Optimal Skills to Learn
 
 ```sql
 SELECT
